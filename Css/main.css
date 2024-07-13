@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+div.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  div.center {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    padding: 16px;
+    border-radius: 8px;
+    a {
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
+    }
+
+    a.link {
+      display: inline-block;
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+      margin-top: 16px;
+    }
+
+    a.link:hover {
+      color: hsl(178, 100%, 50%);
+    }
+
+    p {
+      color: hsl(215, 51%, 70%);
+    }
+
+    div.flex1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      div.left {
+        img {
+        }
+
+        span {
+          color: hsl(178, 100%, 50%);
+        }
+      }
+
+      div.right {
+        img {
+        }
+
+        span {
+          color: hsl(215, 51%, 70%);
+        }
+      }
+    }
+
+    div.bar {
+      margin-top: 16px;
+      border: 1px solid hsl(215, 51%, 70%);
+    }
+
+    div.img {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+
+      p {
+        color: hsl(215, 51%, 70%);
+        a {
+          display: inline-block;
+          color: white;
+          text-decoration: none;
+        }
+      }
+      a:hover {
+        color: hsl(178, 100%, 50%);
+      }
+    }
+  }
+}
